@@ -1,0 +1,6 @@
+framework module Pods_SevenThousandOaksTests {
+  umbrella header "Pods-SevenThousandOaksTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

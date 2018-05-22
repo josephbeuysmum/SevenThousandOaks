@@ -1,0 +1,16 @@
+PODS:
+  - Filzanzug (0.0.19)
+
+DEPENDENCIES:
+  - Filzanzug (from `../Filzanzug`)
+
+EXTERNAL SOURCES:
+  Filzanzug:
+    :path: "../Filzanzug"
+
+SPEC CHECKSUMS:
+  Filzanzug: f27bbe5fac39aac443f2c86c2c9a51882049dcfc
+
+PODFILE CHECKSUM: f54dd9514d21d4ca7dfe3e307976a01d7716ea3c
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,20 @@
+{
+  "name": "Filzanzug",
+  "version": "0.0.19",
+  "summary": "A lightweight VIPER DI framework for Swift apps.",
+  "description": "Filzanzug is lightweight VIPER framework for Swift built using a 'write once, read never' ('WORN') dependency injection system,\nmeaning properties are injected once and not publicly accessible thereafter.",
+  "homepage": "http://josephbeuysmum.co.uk",
+  "license": "MIT",
+  "authors": {
+    "Richard Willis": "richard@josephbeuysmum.co.uk"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/josephbeuysmum/Filzanzug.git",
+    "tag": "0.0.19"
+  },
+  "source_files": "Filzanzug/**/*.{h,m,swift}",
+  "swift_version": "4"
+}

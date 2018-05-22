@@ -1,0 +1,6 @@
+framework module Filzanzug {
+  umbrella header "Filzanzug-umbrella.h"
+
+  export *
+  module * { export * }
+}
