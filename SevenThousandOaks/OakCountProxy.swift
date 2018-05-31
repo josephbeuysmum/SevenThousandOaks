@@ -63,9 +63,7 @@ extension OakProxy: OakProxyProtocol {
 		guard let coreData = worn_closet.getModelClassEntities(by: key_ring.key)?.coreData else { return }
 		var entity = FZCDEntity(oak_entity_name, keys: [FZCDKey(count_attribute_name, FZCDTypes.int)])
 		entity.add(FZCDAttribute(count_attribute_name, 0))
-		coreData.store(entity) { objects in
-			lo(objects)
-		}
+		coreData.store(entity) { objects in }
 	}
 }
 

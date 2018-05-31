@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	func application (
 		_ application: UIApplication,
 		didFinishLaunchingWithOptions launchOptions: [ UIApplicationLaunchOptionsKey: Any ]? ) -> Bool {
-		lo()
 		window = UIWindow(frame: UIScreen.main.bounds)
 		FZRoutingService(with: FZKeyring()).start(rootViewController: Consts.introViewController, window: window!)
 		return true

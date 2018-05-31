@@ -14,7 +14,6 @@ extension GamePresenter: PresenterProtocol {
 	func populateView(with oaksFelled: Int) {
 		guard let gameViewController = view_controller else { return }
 		worn_closet.getPresenterEntities(by: key_ring.key)?.set(oaksFelled, by: oak_count_key)
-		lo(oaksFelled)
 		let
 		totalOaksToFell = Consts.totalOaksToFell,
 		gameOver = oaksFelled >= totalOaksToFell,
