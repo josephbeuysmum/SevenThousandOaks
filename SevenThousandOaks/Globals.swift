@@ -10,7 +10,10 @@ import Filzanzug
 
 struct Consts {
 	static let
-	gameVC = "Game\( FZCommonPhrasesConsts.ViewController )",
-	introVC = "Intro\( FZCommonPhrasesConsts.ViewController )"
+	gameViewController = "Game\( FZCommonPhrasesConsts.ViewController )",
+	introViewController = "Intro\( FZCommonPhrasesConsts.ViewController )",
+	oaksFelledSet = "OaksFelled\( FZCommonPhrasesConsts.Set )",
+	oakFelled = "OakFelled",
+	totalOaksToFell = 7000
 	init() { fatalError("Consts should not be inited") }
 }

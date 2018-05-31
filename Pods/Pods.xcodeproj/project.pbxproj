@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,6 @@
 		09E3B2297D8554DC30F03A2540145504 /* FZ_ET_CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F592AFD0F0D71EBE9CB8A718ADDF427 /* FZ_ET_CoreData.swift */; };
 		0A15035EFAE0D3645AC9690FCC983BB3 /* FZ_CS_Prefixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5970983F0977406D45F5EFF7D844F1DF /* FZ_CS_Prefixes.swift */; };
 		0FBABC433503AFC3E945ADA5C821AA4D /* FZ_UT_Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECEC97812D3D153CBA5CD0BF34FEF2 /* FZ_UT_Math.swift */; };
-		107C87E352538BFB5889A432F746201F /* FZ_ET_GradedBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B720E0C7CE073D7FF0EE10CB8BDE62E /* FZ_ET_GradedBool.swift */; };
 		189344D879B46082FF51B75A9F185CBF /* FZ_VC_Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF3D57366851C398C52E9F0FB3E846 /* FZ_VC_Page.swift */; };
 		1F27128F8846180279140727CACD2787 /* FZ_ET_ApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68662CAFE4D0A286144991FB92FF984C /* FZ_ET_ApiResult.swift */; };
 		2121F1072A5092AFDB61E21BC907EBEE /* Pods-SevenThousandOaks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DEBB6248B0F0B93DC13959290C80C4E /* Pods-SevenThousandOaks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,8 +46,8 @@
 		A0AF56BD11DE81FD6CD8B81D1FB07F8F /* FZ_CS_CommonPhrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B9A7B5EE6663316B728074B0A98C3 /* FZ_CS_CommonPhrases.swift */; };
 		A1D2201F83638736215D923A95B3C6EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A610ED145FCE0B29D7E28EF8386238EC /* FZ_ET_CL_ModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE02CDAA33636184D45F08DF4E502B04 /* FZ_ET_CL_ModelClass.swift */; };
+		A91A00A220B97B2400B434A0 /* FZ_EX_UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91A00A120B97B2400B434A0 /* FZ_EX_UIControl.swift */; };
 		A9319AAB3ACBB96D5F04DB59E8D80450 /* FZ_PX_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAAEE285FC337AFC1CD1AF16EC51BA6 /* FZ_PX_Image.swift */; };
-		AB08CA9853C601A67FE4433E581D7622 /* FZ_EX_SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD386AA8222AEE230CA69EDCF91E22 /* FZ_EX_SwinjectStoryboard.swift */; };
 		AB26F7B065D3D357050353241705D231 /* FZ_PT_VP_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D396C6F02EA99E91521267393BE9B66 /* FZ_PT_VP_ViewController.swift */; };
 		ABB3C18C519197C5EC990F7C99DF4A01 /* FZ_ET_TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF577F14EC4E0050473314073E276004 /* FZ_ET_TimePeriod.swift */; };
 		AC156A6D36237E04A1522DE90BADE3F5 /* FZ_PX_CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4324A9D19162DDA9BF06AF4221CEDDC /* FZ_PX_CoreData.swift */; };
@@ -64,7 +63,6 @@
 		BB096B7B5CB264AEA008F02ECB24DB57 /* FZ_UT_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6FEBB4FE0DB14CA5F7AFA07C07AF82 /* FZ_UT_String.swift */; };
 		BE994DD3BB67978D95F388FBC599688F /* Pods-SevenThousandOaks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EF42640D034EADAA93E2337C70E4A3 /* Pods-SevenThousandOaks-dummy.m */; };
 		BF9690B8061E08CCA19843900B3099B9 /* FZ_ET_Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ACD2A97A3BA0DCE1CEAFB93FA5A9ED /* FZ_ET_Collection.swift */; };
-		C117D94365B9891F5D39B3766F19D413 /* FZ_CP_Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90383A1037B9453E6F373D276A4D1760 /* FZ_CP_Stopwatch.swift */; };
 		C159CA4415F4685CE9A5840D81EBCBE2 /* FZ_PT_SV_Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9909FF25731BADE83175E3AD5F58F3ED /* FZ_PT_SV_Routing.swift */; };
 		C960E1857BCAD697B75A7052425FA0F7 /* FZ_ET_WornCloset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4ED00922EE169A68EBF5580C06FC9 /* FZ_ET_WornCloset.swift */; };
 		CADA530B574AFEC5857FC032AB13189C /* FZ_EX_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BBED7EA0CDDDA4CFD4E8B765F16502 /* FZ_EX_Data.swift */; };
@@ -99,7 +97,7 @@
 		02EC8C18822B4FCF6B6BBE88A7325E8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02ECEC97812D3D153CBA5CD0BF34FEF2 /* FZ_UT_Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_UT_Math.swift; sourceTree = "<group>"; };
 		035B1FE57FA90B47F0F4DC5C38608445 /* FZ_UT_Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_UT_Extensions.swift; sourceTree = "<group>"; };
-		04E5402056B89AFD8D1488C8BD0E159F /* Filzanzug.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Filzanzug.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		04E5402056B89AFD8D1488C8BD0E159F /* Filzanzug.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Filzanzug.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		07E4ED00922EE169A68EBF5580C06FC9 /* FZ_ET_WornCloset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ET_WornCloset.swift; sourceTree = "<group>"; };
 		0B2A8B09CDCD04129F63CAD8465CB21D /* FZ_UT_Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_UT_Misc.swift; sourceTree = "<group>"; };
 		0D396C6F02EA99E91521267393BE9B66 /* FZ_PT_VP_ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_PT_VP_ViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +107,7 @@
 		13DD0A398B8FA4EB7A73E6F9A0107F76 /* Pods-SevenThousandOaksTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevenThousandOaksTests-frameworks.sh"; sourceTree = "<group>"; };
 		1A269D938266BF82C4A1ED6A32A37D44 /* FZ_CS_Chars.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_CS_Chars.swift; sourceTree = "<group>"; };
 		1F592AFD0F0D71EBE9CB8A718ADDF427 /* FZ_ET_CoreData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ET_CoreData.swift; sourceTree = "<group>"; };
-		21A4B4BA2B69ADAC2D5F1FDD13CEBB29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		21A4B4BA2B69ADAC2D5F1FDD13CEBB29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		223785163FCC26B3041BB9B69C1A7E7B /* FZ_PT_VP_ModelClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_PT_VP_ModelClass.swift; sourceTree = "<group>"; };
 		263BBDD7EB70D7C8846446B176321B87 /* FZ_SV_UrlSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_SV_UrlSession.swift; sourceTree = "<group>"; };
 		31D8A010B7725C0CDFB6FA8D09BE9F6B /* FZ_UT_Colors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_UT_Colors.swift; sourceTree = "<group>"; };
@@ -124,7 +122,7 @@
 		4AF956CF9EA7EBBAB5818C7F9DEAC1BE /* FZ_ET_Caller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ET_Caller.swift; sourceTree = "<group>"; };
 		4B9406C01992E8999D8E75F779286718 /* FZ_ET_Keyring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ET_Keyring.swift; sourceTree = "<group>"; };
 		4E336E3ABC0D6E143105BD42A8CFDED4 /* Pods-SevenThousandOaks-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevenThousandOaks-frameworks.sh"; sourceTree = "<group>"; };
-		5034FF55938985D7D9AE4CC4B7307DB9 /* Pods_SevenThousandOaks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SevenThousandOaks.framework; path = "Pods-SevenThousandOaks.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5034FF55938985D7D9AE4CC4B7307DB9 /* Pods_SevenThousandOaks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevenThousandOaks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58ED7B51405664BE884BD6C1CE839FCB /* Pods-SevenThousandOaksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevenThousandOaksTests.release.xcconfig"; sourceTree = "<group>"; };
 		5970983F0977406D45F5EFF7D844F1DF /* FZ_CS_Prefixes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_CS_Prefixes.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -136,7 +134,6 @@
 		68662CAFE4D0A286144991FB92FF984C /* FZ_ET_ApiResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ET_ApiResult.swift; sourceTree = "<group>"; };
 		69D2E1992864EF8CCE0ECB83074C9428 /* Filzanzug-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Filzanzug-umbrella.h"; sourceTree = "<group>"; };
 		6A6FEBB4FE0DB14CA5F7AFA07C07AF82 /* FZ_UT_String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_UT_String.swift; sourceTree = "<group>"; };
-		6BDD386AA8222AEE230CA69EDCF91E22 /* FZ_EX_SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_EX_SwinjectStoryboard.swift; sourceTree = "<group>"; };
 		6DEBB6248B0F0B93DC13959290C80C4E /* Pods-SevenThousandOaks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SevenThousandOaks-umbrella.h"; sourceTree = "<group>"; };
 		6F5CE3347F544E32C4BBCA735B322571 /* FZ_ET_SignalWaveform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ET_SignalWaveform.swift; sourceTree = "<group>"; };
 		711C1AB5ACA72B96D24A9145FDF7978F /* Pods-SevenThousandOaksTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SevenThousandOaksTests.modulemap"; sourceTree = "<group>"; };
@@ -145,21 +142,20 @@
 		786A344729FF290F8472AD2FB76FA086 /* FZ_ET_SignalsService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ET_SignalsService.swift; sourceTree = "<group>"; };
 		78AD289FDADE94A7FF6F1BDC814B7E55 /* FZ_CS_Logs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_CS_Logs.swift; sourceTree = "<group>"; };
 		78B88BD20866194E46AB73EED37A1870 /* Pods-SevenThousandOaksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevenThousandOaksTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7FC93C375D63E34DBDEC0B4C3D5192A5 /* Filzanzug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Filzanzug.framework; path = Filzanzug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC93C375D63E34DBDEC0B4C3D5192A5 /* Filzanzug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Filzanzug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E2B2A6976E0411B27F81D7381CE18D /* FZ_UT_Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_UT_Constraints.swift; sourceTree = "<group>"; };
 		82EC964B8444C8F061146E68E98A32DF /* FZ_PT_Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_PT_Components.swift; sourceTree = "<group>"; };
 		881A5DFD133890EF97F8BC02FF785481 /* Pods-SevenThousandOaksTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevenThousandOaksTests-resources.sh"; sourceTree = "<group>"; };
 		883E1AC37FE7A0B7742119C930EBB8F7 /* FZ_CS_Signals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_CS_Signals.swift; sourceTree = "<group>"; };
 		8C753BE25740FC1E0659254EA44FA541 /* FZ_SV_Signals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_SV_Signals.swift; sourceTree = "<group>"; };
-		90383A1037B9453E6F373D276A4D1760 /* FZ_CP_Stopwatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_CP_Stopwatch.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9909FF25731BADE83175E3AD5F58F3ED /* FZ_PT_SV_Routing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_PT_SV_Routing.swift; sourceTree = "<group>"; };
-		9B720E0C7CE073D7FF0EE10CB8BDE62E /* FZ_ET_GradedBool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ET_GradedBool.swift; sourceTree = "<group>"; };
-		9EB4F4C1C31FE6AEA59EA893887F336A /* Pods_SevenThousandOaksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SevenThousandOaksTests.framework; path = "Pods-SevenThousandOaksTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB4F4C1C31FE6AEA59EA893887F336A /* Pods_SevenThousandOaksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevenThousandOaksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D8BF7D7D94B44BB17431FF9D23FCF8 /* FZ_PT_SV_Signals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_PT_SV_Signals.swift; sourceTree = "<group>"; };
 		A2471A6EFF812BD1AD5BCFEB2A39F3C8 /* FZ_ET_CL_Presenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ET_CL_Presenter.swift; sourceTree = "<group>"; };
 		A61A4CDAB894A836E63E49087AF10590 /* Pods-SevenThousandOaks-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevenThousandOaks-acknowledgements.plist"; sourceTree = "<group>"; };
 		A6EA75A338C507F58915B78BD410B4E6 /* FZ_CS_Keys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_CS_Keys.swift; sourceTree = "<group>"; };
+		A91A00A120B97B2400B434A0 /* FZ_EX_UIControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZ_EX_UIControl.swift; sourceTree = "<group>"; };
 		AF577F14EC4E0050473314073E276004 /* FZ_ET_TimePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ET_TimePeriod.swift; sourceTree = "<group>"; };
 		AFEF3D57366851C398C52E9F0FB3E846 /* FZ_VC_Page.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_VC_Page.swift; sourceTree = "<group>"; };
 		B7EF42640D034EADAA93E2337C70E4A3 /* Pods-SevenThousandOaks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SevenThousandOaks-dummy.m"; sourceTree = "<group>"; };
@@ -167,7 +163,7 @@
 		B90D65990A41082FD06DD04FA2BA1353 /* Filzanzug-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Filzanzug-dummy.m"; sourceTree = "<group>"; };
 		B9FD70CAE8924D3787450C2908730152 /* FZ_PT_VP_WornCloset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_PT_VP_WornCloset.swift; sourceTree = "<group>"; };
 		BDC10C82D3F15CB3AAB41EC2603DD4C8 /* FZ_ET_VipRelationship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ET_VipRelationship.swift; sourceTree = "<group>"; };
-		CBBA3C4995BD0603B6080C4733CDB6F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CBBA3C4995BD0603B6080C4733CDB6F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D4324A9D19162DDA9BF06AF4221CEDDC /* FZ_PX_CoreData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_PX_CoreData.swift; sourceTree = "<group>"; };
 		D4BBED7EA0CDDDA4CFD4E8B765F16502 /* FZ_EX_Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_EX_Data.swift; sourceTree = "<group>"; };
 		D522DCDC5715F5B9F8933BD874B72348 /* FZ_ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FZ_ViewController.swift; sourceTree = "<group>"; };
@@ -281,7 +277,6 @@
 				68662CAFE4D0A286144991FB92FF984C /* FZ_ET_ApiResult.swift */,
 				4AF956CF9EA7EBBAB5818C7F9DEAC1BE /* FZ_ET_Caller.swift */,
 				1F592AFD0F0D71EBE9CB8A718ADDF427 /* FZ_ET_CoreData.swift */,
-				9B720E0C7CE073D7FF0EE10CB8BDE62E /* FZ_ET_GradedBool.swift */,
 				4B9406C01992E8999D8E75F779286718 /* FZ_ET_Keyring.swift */,
 				3DCE9EF424D18B28AFCE7CB8F1DD5F90 /* FZ_ET_Signal.swift */,
 				786A344729FF290F8472AD2FB76FA086 /* FZ_ET_SignalsService.swift */,
@@ -328,7 +323,6 @@
 				A0D8BF7D7D94B44BB17431FF9D23FCF8 /* FZ_PT_SV_Signals.swift */,
 				3B8518496D70D10BF12F624133F5FCB4 /* FZ_PT_SV_UrlSession.swift */,
 			);
-			name = Services;
 			path = Services;
 			sourceTree = "<group>";
 		};
@@ -357,7 +351,6 @@
 				A2471A6EFF812BD1AD5BCFEB2A39F3C8 /* FZ_ET_CL_Presenter.swift */,
 				E8ACD2A97A3BA0DCE1CEAFB93FA5A9ED /* FZ_ET_Collection.swift */,
 			);
-			name = Collections;
 			path = Collections;
 			sourceTree = "<group>";
 		};
@@ -386,7 +379,6 @@
 			isa = PBXGroup;
 			children = (
 				5DC9B30976F24915A6B42832BF84618B /* Filzanzug.h */,
-				DD6D977331CA81226921BD03A2814E88 /* Components */,
 				C53F726B769774DB137C71E2E72262B6 /* Constants */,
 				297ACA8F47B2222FB77B80F99B7D20F6 /* Entities */,
 				CCCC3ED8F04C68EDF3961B9F1A6FE503 /* Extensions */,
@@ -411,7 +403,6 @@
 				0D396C6F02EA99E91521267393BE9B66 /* FZ_PT_VP_ViewController.swift */,
 				B9FD70CAE8924D3787450C2908730152 /* FZ_PT_VP_WornCloset.swift */,
 			);
-			name = Viper;
 			path = Viper;
 			sourceTree = "<group>";
 		};
@@ -453,7 +444,7 @@
 			isa = PBXGroup;
 			children = (
 				D4BBED7EA0CDDDA4CFD4E8B765F16502 /* FZ_EX_Data.swift */,
-				6BDD386AA8222AEE230CA69EDCF91E22 /* FZ_EX_SwinjectStoryboard.swift */,
+				A91A00A120B97B2400B434A0 /* FZ_EX_UIControl.swift */,
 			);
 			name = Extensions;
 			path = Filzanzug/Extensions;
@@ -475,15 +466,6 @@
 			);
 			name = "Pods-SevenThousandOaks";
 			path = "Target Support Files/Pods-SevenThousandOaks";
-			sourceTree = "<group>";
-		};
-		DD6D977331CA81226921BD03A2814E88 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				90383A1037B9453E6F373D276A4D1760 /* FZ_CP_Stopwatch.swift */,
-			);
-			name = Components;
-			path = Filzanzug/Components;
 			sourceTree = "<group>";
 		};
 		E377D003CA21EFC8D6FA4F5F042316FE /* Support Files */ = {
@@ -643,13 +625,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F90495C0E82B947E16B2B9354DC30A /* Filzanzug-dummy.m in Sources */,
-				C117D94365B9891F5D39B3766F19D413 /* FZ_CP_Stopwatch.swift in Sources */,
 				37E7D0706C627169AAF1791D08E59022 /* FZ_CS_Chars.swift in Sources */,
 				A0AF56BD11DE81FD6CD8B81D1FB07F8F /* FZ_CS_CommonPhrases.swift in Sources */,
 				B03F43C2595425C78F802837CC653470 /* FZ_CS_Keys.swift in Sources */,
 				719813CD57D31651621799A3E2CE8297 /* FZ_CS_Logs.swift in Sources */,
 				0231B17E2F75A8C3FFEBE6A01F22876E /* FZ_CS_Metrics.swift in Sources */,
 				0A15035EFAE0D3645AC9690FCC983BB3 /* FZ_CS_Prefixes.swift in Sources */,
+				A91A00A220B97B2400B434A0 /* FZ_EX_UIControl.swift in Sources */,
 				22B885768CC176ACB1B9850EF606036D /* FZ_CS_Signals.swift in Sources */,
 				1F27128F8846180279140727CACD2787 /* FZ_ET_ApiResult.swift in Sources */,
 				89A69D859801106BA9749CF16C0F0B6A /* FZ_ET_Caller.swift in Sources */,
@@ -659,7 +641,6 @@
 				383474B3685FAA2DC24D9C80E32B9BE9 /* FZ_ET_CL_Presenter.swift in Sources */,
 				BF9690B8061E08CCA19843900B3099B9 /* FZ_ET_Collection.swift in Sources */,
 				09E3B2297D8554DC30F03A2540145504 /* FZ_ET_CoreData.swift in Sources */,
-				107C87E352538BFB5889A432F746201F /* FZ_ET_GradedBool.swift in Sources */,
 				B8EE59AA6DC24A7320AFBB6BCE134BB4 /* FZ_ET_Keyring.swift in Sources */,
 				CC5409BECE3A06A3A021F65AEFCB67A6 /* FZ_ET_Signal.swift in Sources */,
 				555FBCEAA6759081929F180A70223DDB /* FZ_ET_SignalsService.swift in Sources */,
@@ -669,7 +650,6 @@
 				6E6D688F7ABDAD77CFC899337CC2A5ED /* FZ_ET_VipRelationship.swift in Sources */,
 				C960E1857BCAD697B75A7052425FA0F7 /* FZ_ET_WornCloset.swift in Sources */,
 				CADA530B574AFEC5857FC032AB13189C /* FZ_EX_Data.swift in Sources */,
-				AB08CA9853C601A67FE4433E581D7622 /* FZ_EX_SwinjectStoryboard.swift in Sources */,
 				666DDC3A31E73322531EB056C7F77E8D /* FZ_PT_Components.swift in Sources */,
 				21F39DDFFB4242472B85FA7030009748 /* FZ_PT_Entities.swift in Sources */,
 				3F870BAA10A5855FF701881C18554E31 /* FZ_PT_EntityCollections.swift in Sources */,
@@ -740,11 +720,7 @@
 				INFOPLIST_FILE = "Target Support Files/Filzanzug/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Filzanzug/Filzanzug.modulemap";
 				PRODUCT_MODULE_NAME = Filzanzug;
 				PRODUCT_NAME = Filzanzug;
@@ -777,11 +753,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SevenThousandOaksTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SevenThousandOaksTests/Pods-SevenThousandOaksTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -938,11 +910,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SevenThousandOaks/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SevenThousandOaks/Pods-SevenThousandOaks.modulemap";
 				OTHER_LDFLAGS = "";
@@ -978,11 +946,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SevenThousandOaksTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SevenThousandOaksTests/Pods-SevenThousandOaksTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1018,11 +982,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SevenThousandOaks/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SevenThousandOaks/Pods-SevenThousandOaks.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1058,11 +1018,7 @@
 				INFOPLIST_FILE = "Target Support Files/Filzanzug/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Filzanzug/Filzanzug.modulemap";
 				PRODUCT_MODULE_NAME = Filzanzug;
 				PRODUCT_NAME = Filzanzug;

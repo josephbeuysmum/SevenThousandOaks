@@ -10,18 +10,8 @@ import Filzanzug
 import UIKit
 
 class GameViewController: FZViewController {
-	@IBOutlet weak var button: UIButton!
-	@IBOutlet weak var image: UIImageView!
-
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
-	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		
-		
-		// Dispose of any resources that can be recreated.
-	}
+	@IBOutlet weak var feedbackLabel: UILabel!
+	@IBOutlet weak var completionLabel: UILabel!
+	@IBOutlet weak var animationImage: UIImageView!
+	@IBOutlet weak var fellButton: UIButton!
 }

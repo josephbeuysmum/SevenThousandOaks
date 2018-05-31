@@ -10,7 +10,17 @@ import Filzanzug
 
 extension IntroInteractor: FZInteractorProtocol {
 	var wornCloset: FZWornCloset { return worn_closet }
-	func postPresenterActivated () {}
+	
+	func postPresenterActivated() {
+		guard
+			let signals = worn_closet.getSignals(by: key_ring.key),
+			let oaksFelledProxy = self.worn_closet.getInteractorEntities(by: self.key_ring.key)?.bespokeRail.getModelClass(by: OakProxy.self) as? OakProxy,
+			let introPresenter = self.presenter_
+			else { return }
+		signals.scanOnceFor(key: Consts.oaksFelledSet, scanner: self) { _,_ in
+			introPresenter.populateView(with: oaksFelledProxy.totalFellings)
+		}
+	}
 }
 
 struct IntroInteractor {
@@ -21,8 +31,8 @@ struct IntroInteractor {
 		return worn_closet.getInteractorEntities(by: key_ring.key)?.presenter as? IntroPresenter
 	}
 	
-	init () {
-		key_ring = FZKeyring()
+	init(with keyring: FZKeyring){
+		key_ring = keyring
 		worn_closet = FZWornCloset(key_ring.key)
 	}
 }

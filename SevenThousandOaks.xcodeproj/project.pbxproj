@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		267588396931A7246E026BCC /* Pods_SevenThousandOaks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED79BEBC852365F4BF262E6F /* Pods_SevenThousandOaks.framework */; };
+		A905781720B42A9800672852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A905781620B42A9800672852 /* Assets.xcassets */; };
+		A905781920B436AD00672852 /* OakCountProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905781820B436AD00672852 /* OakCountProxy.swift */; };
+		A905781C20B44AA800672852 /* MyNiceData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A905781A20B44AA800672852 /* MyNiceData.xcdatamodeld */; };
+		A91A00A420BABE0800B434A0 /* PresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91A00A320BABE0800B434A0 /* PresenterProtocol.swift */; };
 		A96BE8ED20ADD05A0099A1D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96BE8EC20ADD05A0099A1D1 /* AppDelegate.swift */; };
-		A96BE8EF20ADD05A0099A1D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96BE8EE20ADD05A0099A1D1 /* ViewController.swift */; };
 		A96BE8F220ADD05A0099A1D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96BE8F020ADD05A0099A1D1 /* Main.storyboard */; };
-		A96BE8F420ADD05B0099A1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96BE8F320ADD05B0099A1D1 /* Assets.xcassets */; };
 		A96BE8F720ADD05B0099A1D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96BE8F520ADD05B0099A1D1 /* LaunchScreen.storyboard */; };
 		A96BE90220ADD05B0099A1D1 /* SevenThousandOaksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96BE90120ADD05B0099A1D1 /* SevenThousandOaksTests.swift */; };
 		A96FBDB220ADD0F80049EC58 /* IntroInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96FBDAA20ADD0F70049EC58 /* IntroInteractor.swift */; };
@@ -40,11 +42,13 @@
 		6F9DFF9A055B826360AD47E0 /* Pods-SevenThousandOaksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenThousandOaksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SevenThousandOaksTests/Pods-SevenThousandOaksTests.release.xcconfig"; sourceTree = "<group>"; };
 		7E494121738EA00D260EF456 /* Pods-SevenThousandOaksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenThousandOaksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SevenThousandOaksTests/Pods-SevenThousandOaksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		958EFF32B60B52FCA2E9147F /* Pods-SevenThousandOaks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenThousandOaks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SevenThousandOaks/Pods-SevenThousandOaks.debug.xcconfig"; sourceTree = "<group>"; };
+		A905781620B42A9800672852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A905781820B436AD00672852 /* OakCountProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OakCountProxy.swift; sourceTree = "<group>"; };
+		A905781B20B44AA800672852 /* MyNiceData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyNiceData.xcdatamodel; sourceTree = "<group>"; };
+		A91A00A320BABE0800B434A0 /* PresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterProtocol.swift; sourceTree = "<group>"; };
 		A96BE8E920ADD05A0099A1D1 /* SevenThousandOaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenThousandOaks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96BE8EC20ADD05A0099A1D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A96BE8EE20ADD05A0099A1D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A96BE8F120ADD05A0099A1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A96BE8F320ADD05B0099A1D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A96BE8F620ADD05B0099A1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A96BE8F820ADD05B0099A1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A96BE8FD20ADD05B0099A1D1 /* SevenThousandOaksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenThousandOaksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,20 +120,22 @@
 		A96BE8EB20ADD05A0099A1D1 /* SevenThousandOaks */ = {
 			isa = PBXGroup;
 			children = (
+				A96FBDAF20ADD0F80049EC58 /* Globals.swift */,
 				A96FBDB020ADD0F80049EC58 /* FZRoutingExtension.swift */,
 				A96FBDAD20ADD0F80049EC58 /* GameInteractor.swift */,
 				A96FBDAB20ADD0F70049EC58 /* GamePresenter.swift */,
 				A96FBDAE20ADD0F80049EC58 /* GameViewController.swift */,
-				A96FBDAF20ADD0F80049EC58 /* Globals.swift */,
 				A96FBDAA20ADD0F70049EC58 /* IntroInteractor.swift */,
 				A96FBDB120ADD0F80049EC58 /* IntroPresenter.swift */,
 				A96FBDAC20ADD0F80049EC58 /* IntroViewController.swift */,
+				A91A00A320BABE0800B434A0 /* PresenterProtocol.swift */,
+				A905781820B436AD00672852 /* OakCountProxy.swift */,
 				A96BE8EC20ADD05A0099A1D1 /* AppDelegate.swift */,
-				A96BE8EE20ADD05A0099A1D1 /* ViewController.swift */,
 				A96BE8F020ADD05A0099A1D1 /* Main.storyboard */,
-				A96BE8F320ADD05B0099A1D1 /* Assets.xcassets */,
 				A96BE8F520ADD05B0099A1D1 /* LaunchScreen.storyboard */,
+				A905781620B42A9800672852 /* Assets.xcassets */,
 				A96BE8F820ADD05B0099A1D1 /* Info.plist */,
+				A905781A20B44AA800672852 /* MyNiceData.xcdatamodeld */,
 			);
 			path = SevenThousandOaks;
 			sourceTree = "<group>";
@@ -238,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96BE8F720ADD05B0099A1D1 /* LaunchScreen.storyboard in Resources */,
-				A96BE8F420ADD05B0099A1D1 /* Assets.xcassets in Resources */,
+				A905781720B42A9800672852 /* Assets.xcassets in Resources */,
 				A96BE8F220ADD05A0099A1D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,10 +343,12 @@
 				A96FBDB420ADD0F80049EC58 /* IntroViewController.swift in Sources */,
 				A96FBDB320ADD0F80049EC58 /* GamePresenter.swift in Sources */,
 				A96FBDB720ADD0F80049EC58 /* Globals.swift in Sources */,
-				A96BE8EF20ADD05A0099A1D1 /* ViewController.swift in Sources */,
 				A96BE8ED20ADD05A0099A1D1 /* AppDelegate.swift in Sources */,
 				A96FBDB220ADD0F80049EC58 /* IntroInteractor.swift in Sources */,
+				A905781C20B44AA800672852 /* MyNiceData.xcdatamodeld in Sources */,
+				A91A00A420BABE0800B434A0 /* PresenterProtocol.swift in Sources */,
 				A96FBDB820ADD0F80049EC58 /* FZRoutingExtension.swift in Sources */,
+				A905781920B436AD00672852 /* OakCountProxy.swift in Sources */,
 				A96FBDB920ADD0F80049EC58 /* IntroPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,6 +618,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A905781A20B44AA800672852 /* MyNiceData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A905781B20B44AA800672852 /* MyNiceData.xcdatamodel */,
+			);
+			currentVersion = A905781B20B44AA800672852 /* MyNiceData.xcdatamodel */;
+			path = MyNiceData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A96BE8E120ADD05A0099A1D1 /* Project object */;
 }

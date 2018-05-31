@@ -10,14 +10,8 @@ import Filzanzug
 import UIKit
 
 class IntroViewController: FZViewController {
-	@IBOutlet weak var image: UIImageView!
-	
-	override func viewDidAppear(_ animated: Bool) {
-		super.viewDidAppear(animated)
-		signalBox.signals?.transmitSignal( by: FZSignalConsts.navigateTo, with: Consts.gameVC )
-	}
-	
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-	}
+	@IBOutlet weak var backgroundImage: UIImageView!
+	@IBOutlet weak var headerLabel: UILabel!
+	@IBOutlet weak var copyLabel: UILabel!
+	@IBOutlet weak var playButton: UIButton!
 }

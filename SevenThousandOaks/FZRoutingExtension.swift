@@ -9,21 +9,22 @@
 import Filzanzug
 
 extension FZRoutingService: FZRoutingServiceExtensionProtocol {
-	public func registerDependencies ( with key: String ) {
-		register( FZCoreDataProxy.self, with: key )
+	public func registerDependencies (with key: String) {
+		register(FZCoreDataProxy.self, with: key)
+		register(OakProxy.self, with: key, injecting: [FZCoreDataProxy.self])
 		register(
-			viewControllerId: Consts.introVC,
+			viewControllerId: Consts.introViewController,
 			viewControllerType: IntroViewController.self,
 			interactorType: IntroInteractor.self,
 			presenterType: IntroPresenter.self,
 			with: key,
-			injecting: [ FZCoreDataProxy.self ] )
+			injecting: [OakProxy.self])
 		register(
-			viewControllerId: Consts.gameVC,
+			viewControllerId: Consts.gameViewController,
 			viewControllerType: GameViewController.self,
 			interactorType: GameInteractor.self,
 			presenterType: GamePresenter.self,
 			with: key,
-			injecting: [ FZCoreDataProxy.self ] )
+			injecting: [FZCoreDataProxy.self, OakProxy.self])
 	}
 }
