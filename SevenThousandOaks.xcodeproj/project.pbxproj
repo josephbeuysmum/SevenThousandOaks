@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		267588396931A7246E026BCC /* Pods_SevenThousandOaks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED79BEBC852365F4BF262E6F /* Pods_SevenThousandOaks.framework */; };
 		A905781720B42A9800672852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A905781620B42A9800672852 /* Assets.xcassets */; };
-		A905781920B436AD00672852 /* OakCountProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905781820B436AD00672852 /* OakCountProxy.swift */; };
+		A905781920B436AD00672852 /* OakProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905781820B436AD00672852 /* OakProxy.swift */; };
 		A905781C20B44AA800672852 /* MyNiceData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A905781A20B44AA800672852 /* MyNiceData.xcdatamodeld */; };
 		A91A00A420BABE0800B434A0 /* PresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91A00A320BABE0800B434A0 /* PresenterProtocol.swift */; };
 		A96BE8ED20ADD05A0099A1D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96BE8EC20ADD05A0099A1D1 /* AppDelegate.swift */; };
@@ -43,7 +43,7 @@
 		7E494121738EA00D260EF456 /* Pods-SevenThousandOaksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenThousandOaksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SevenThousandOaksTests/Pods-SevenThousandOaksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		958EFF32B60B52FCA2E9147F /* Pods-SevenThousandOaks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenThousandOaks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SevenThousandOaks/Pods-SevenThousandOaks.debug.xcconfig"; sourceTree = "<group>"; };
 		A905781620B42A9800672852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A905781820B436AD00672852 /* OakCountProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OakCountProxy.swift; sourceTree = "<group>"; };
+		A905781820B436AD00672852 /* OakProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OakProxy.swift; sourceTree = "<group>"; };
 		A905781B20B44AA800672852 /* MyNiceData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyNiceData.xcdatamodel; sourceTree = "<group>"; };
 		A91A00A320BABE0800B434A0 /* PresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterProtocol.swift; sourceTree = "<group>"; };
 		A96BE8E920ADD05A0099A1D1 /* SevenThousandOaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenThousandOaks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,7 +129,7 @@
 				A96FBDB120ADD0F80049EC58 /* IntroPresenter.swift */,
 				A96FBDAC20ADD0F80049EC58 /* IntroViewController.swift */,
 				A91A00A320BABE0800B434A0 /* PresenterProtocol.swift */,
-				A905781820B436AD00672852 /* OakCountProxy.swift */,
+				A905781820B436AD00672852 /* OakProxy.swift */,
 				A96BE8EC20ADD05A0099A1D1 /* AppDelegate.swift */,
 				A96BE8F020ADD05A0099A1D1 /* Main.storyboard */,
 				A96BE8F520ADD05B0099A1D1 /* LaunchScreen.storyboard */,
@@ -348,7 +348,7 @@
 				A905781C20B44AA800672852 /* MyNiceData.xcdatamodeld in Sources */,
 				A91A00A420BABE0800B434A0 /* PresenterProtocol.swift in Sources */,
 				A96FBDB820ADD0F80049EC58 /* FZRoutingExtension.swift in Sources */,
-				A905781920B436AD00672852 /* OakCountProxy.swift in Sources */,
+				A905781920B436AD00672852 /* OakProxy.swift in Sources */,
 				A96FBDB920ADD0F80049EC58 /* IntroPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,13 +511,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6PMMTDB6M4;
+				DEVELOPMENT_TEAM = DM7DWP6VN6;
 				INFOPLIST_FILE = SevenThousandOaks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.josephbeuysmum.SevenThousandOaks;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.josephbeuysmum.7000Oaks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,13 +530,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6PMMTDB6M4;
+				DEVELOPMENT_TEAM = DM7DWP6VN6;
 				INFOPLIST_FILE = SevenThousandOaks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.josephbeuysmum.SevenThousandOaks;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.josephbeuysmum.7000Oaks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

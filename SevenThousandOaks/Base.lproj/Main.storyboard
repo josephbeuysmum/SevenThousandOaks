@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -94,6 +94,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;copy&gt;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytr-GP-WHl">
+                                <rect key="frame" x="32" y="52" width="256" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="2Ux-Fv-ViC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LIV-TK-9Nw">
+                                <rect key="frame" x="32" y="109" width="256" height="243"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DY-P8-rGj">
                                 <rect key="frame" x="32" y="384" width="256" height="64"/>
                                 <constraints>
@@ -108,18 +123,6 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 </variation>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LIV-TK-9Nw">
-                                <rect key="frame" x="32" y="105" width="256" height="247"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;copy&gt;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytr-GP-WHl">
-                                <rect key="frame" x="32" y="52" width="256" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                </variation>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;congrats&gt;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZX-ug-x9e">
                                 <rect key="frame" x="32" y="384" width="256" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -133,7 +136,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="LZX-ug-x9e" firstAttribute="leading" secondItem="pzQ-oe-3tc" secondAttribute="leading" constant="32" id="I6v-pJ-JKx"/>
-                            <constraint firstItem="LIV-TK-9Nw" firstAttribute="top" secondItem="ytr-GP-WHl" secondAttribute="bottom" constant="32.5" id="LnF-L4-KeI"/>
+                            <constraint firstItem="LIV-TK-9Nw" firstAttribute="top" secondItem="ytr-GP-WHl" secondAttribute="bottom" constant="32" id="P6a-jl-T1Z"/>
                             <constraint firstItem="LZX-ug-x9e" firstAttribute="top" secondItem="LIV-TK-9Nw" secondAttribute="bottom" constant="32" id="Rni-oz-7Rc"/>
                             <constraint firstItem="ytr-GP-WHl" firstAttribute="leading" secondItem="pzQ-oe-3tc" secondAttribute="leading" constant="32" id="Tdq-mm-s6k"/>
                             <constraint firstItem="pzQ-oe-3tc" firstAttribute="trailing" secondItem="8DY-P8-rGj" secondAttribute="trailing" constant="32" id="UIc-EX-2Mg"/>
@@ -161,6 +164,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="plain_bg" width="533" height="533"/>
+        <image name="plain_bg" width="512" height="128"/>
     </resources>
 </document>

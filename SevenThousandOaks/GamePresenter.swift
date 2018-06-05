@@ -23,11 +23,11 @@ extension GamePresenter: PresenterProtocol {
 
 	func postViewActivated() {
 		guard let gameViewController = view_controller else { return }
-		gameViewController.feedbackLabel.makeWrappable()
 		gameViewController.completionLabel.makeWrappable()
 		gameViewController.completionLabel.isHidden = true
 		gameViewController.completionLabel.text = ""
 		gameViewController.animationImage.image = #imageLiteral(resourceName: "oak_mature")
+		gameViewController.animationImage.contentMode = .scaleAspectFit
 		gameViewController.fellButton.setTitle("Fell", for: .normal)
 		gameViewController.fellButton.setTitle("Fell", for: .focused)
 		gameViewController.fellButton.setTitle("Fell", for: .highlighted)
